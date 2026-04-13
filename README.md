@@ -19,3 +19,29 @@ chatbot/
 ├── style.css    — dark theme styling
 └── script.js    — toggle logic + OpenAI API calls
 
+## Setup
+
+1. Clone or download this repository.
+2. Open `script.js` and add your OpenAI API key and endpoint:
+
+```js
+const apiKey = "sk-...your-key-here...";
+const apiUrl = "https://api.openai.com/v1/chat/completions";
+```
+
+3. Open `index.html` in a browser — no server required.
+
+> ⚠️ **Never commit your API key to a public repository.** Use environment variables or a backend proxy for production.
+
+## Configuration
+
+| Option | Location | Default |
+|---|---|---|
+| `model` | `script.js` | `gpt-4o-mini` |
+| `max_tokens` | `script.js` | `150` |
+| Accent color | `style.css` | `#d32f2f` |
+| Widget size | `style.css` | 350 × 450px |
+
+## License
+
+MIT
