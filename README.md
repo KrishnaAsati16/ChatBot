@@ -1,4 +1,3 @@
-💬 
 
 # 💬 Floating AI Chatbot
 
